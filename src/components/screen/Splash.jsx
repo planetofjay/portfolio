@@ -7,7 +7,7 @@ const fadeOut = keyframes`
     opacity: 1;
   }
   to {
-    opacity: 0
+    opacity: 0;
   }
 `;
 
@@ -33,7 +33,7 @@ const Splash = () => {
 
   useEffect(() => {
     const typed = new Typed(name.current, {
-      string: ["Jaejin Lee "],
+      strings: ["Jay."],
       startDelay: 600,
       typeSpeed: 140,
     });

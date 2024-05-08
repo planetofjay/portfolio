@@ -7,7 +7,7 @@ import { projects } from "../components/data/data";
 import web from "../assets/web.png";
 import Github from "../assets/github.svg";
 
-const Conteiner = styled(motion.div)`
+const Container = styled(motion.div)`
   height: auto;
   color: #c3c3c3;
   position: absolute;
@@ -38,7 +38,7 @@ const Social = styled.img`
 const Projects = () => {
   return (
     <>
-      <Conteiner
+      <Container
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
@@ -51,11 +51,11 @@ const Projects = () => {
               key={i}
             >
               <StyledProject>
-                <h3 style={{ fontWeight: 400 }}>• {exp.name}</h3>
-                <p style={{ fontWeight: 350 }}>{exp.projects}</p>
+                <h3 style={{ fontWeight: 400}}>• {exp.name}</h3>
+                <p style={{ fontWeight: 200 }}>{exp.projects}</p>
                 <p
                   style={{
-                    fontSize: 11,
+                    fontSize: 12,
                     fontWeight: 700,
                     float: "right",
                     marginTop: 6,
@@ -70,18 +70,18 @@ const Projects = () => {
                     justifyContent: "end",
                   }}
                 >
-                  <a style={{ marginRight: 10 }} href={exp.url} target="blank">
-                    <Social src={Github} alt="Cau's Github" />
+                  <a style={{ marginRight: 10 }} href={exp.repo} target="blank">
+                    <Social src={Github} alt="Jay's Github" />
                   </a>
-                  <a href={exp.web} target="blank">
-                    <Social src={web} alt="Cau's Page" />
+                  <a href={exp.url} target="blank">
+                    <Social src={web} alt="Jay's Page" />
                   </a>
                 </div>
               </StyledProject>
             </ContainerSlideIn>
           );
         })}
-      </Conteiner>
+      </Container>
     </>
   );
 };
