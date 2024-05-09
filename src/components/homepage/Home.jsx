@@ -64,7 +64,7 @@ const Home = () => {
 
   useEffect(() => {
     const typedWeb = new Typed(webD.current, {
-      strings: [".web developer .photographer"],
+      strings: [".web developer .street photographer"],
       startDelay: 400,
       typeSpeed: 70,
       backDelay: 500,
