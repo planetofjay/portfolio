@@ -9,13 +9,13 @@ export const projects = [
   {
     name: "Weadget",
     projects: "Weather Component",
-    year: "Personal 2022.",
+    year: "Personal, 2022.",
     repo: "https://github.com/PlanetofJay/weather-app",
     url: "https://planetofjay.github.io/weather-app/",
   },
   {
     name: "Noti",
-    projects: "CRUD App & TodoList",
+    projects: "CRUD Application & TodoList",
     year: "Personal, 2022.",
     repo: "https://github.com/PlanetofJay/my-note",
     url: "https://planetofjay.github.io/my-note/",
