@@ -7,6 +7,13 @@ export const projects = [
     url: "http://planetofjay.github.io/social-media-app1/",
   },
   {
+    name: "GOtravel",
+    projects: "Travel Website Template",
+    year: "Personal, 2023.",
+    repo: "https://github.com/planetofjay/react-website-1",
+    url: "https://planetofjay.github.io/react-website-1/",
+  },
+  {
     name: "Weadget",
     projects: "Weather Component",
     year: "Personal, 2022.",
