@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)]
+[Deploy with Vercel](https://vercel.com/button)
 
 # Jaejin Lee
 
